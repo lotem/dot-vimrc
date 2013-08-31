@@ -189,6 +189,9 @@ let g:SuperTabRetainCompletionType=2
 set wildignore+=*/tmp/*,*.so,*.o,*.a,*.obj,*.swp,*.zip,*.pyc,*.pyo,*.class,.DS_Store  " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
+" localvimrc
+let g:localvimrc_ask = 0
+
 " Keybindings for plugin toggle
 nmap <F5> :TagbarToggle<cr>
 nmap <F6> :NERDTreeToggle<cr>

@@ -50,6 +50,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'vim-scripts/a.vim'
+Bundle 'vim-scripts/localvimrc'
 
 "-------------
 " Other Utils
