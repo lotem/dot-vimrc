@@ -1,7 +1,7 @@
 source ~/.vim/bundles.vim
 
 " encoding dectection
-set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set fileencodings=ucs-bom,utf-8,gbk,big5,euc-jp,euc-kr,utf-16le,latin1
 
 " enable filetype dectection and ft specific plugin/indent
 filetype plugin indent on
@@ -14,7 +14,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color vividchalk
+color ir_black
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -235,7 +235,15 @@ nnoremap ; :
 if has("gui_running")
     set go=aAce  " remove toolbar
     "set transparency=30
-    set guifont=Monaco:h13
+
+    if has("gui_gtk")
+      set guifont=Monospace\ 14
+    elseif has("gui_macvim")
+      set guifont=Monaco:h17
+    else
+      set guifont=Monaco:h17
+    end
+
     set showtabline=2
     set columns=140
     set lines=40
