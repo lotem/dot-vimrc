@@ -243,8 +243,8 @@ if has("gui_running")
       set guifont=Monospace\ 14
     elseif has("gui_macvim")
       set guifont=Monaco:h17
-    else
-      set guifont=Monaco:h17
+    elseif has("gui_win32")
+      set guifont=Monaco:h14
     end
 
     set showtabline=2

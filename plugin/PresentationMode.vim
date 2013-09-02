@@ -11,8 +11,8 @@ function! PresentationModeOn()
       set guifont=Monospace\ 22        " for ubuntu
     elseif has("gui_macvim")
       set guifont=Monaco:h25           " for Mac
-    else
-      set guifont=Monaco:h25           " for Windows
+    elseif has("gui_win32")
+      set guifont=Monaco:h22           " for Windows
     end
   endif
 endfunction
@@ -25,8 +25,8 @@ function! PresentationModeOff()
       set guifont=Monospace\ 14        " for ubuntu
     elseif has("gui_macvim")
       set guifont=Monaco:h17           " for Mac
-    else
-      set guifont=Monaco:h17           " for Windows
+    elseif has("gui_win32")
+      set guifont=Monaco:h14           " for Windows
     end
   endif
 endfunction
