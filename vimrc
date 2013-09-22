@@ -192,9 +192,17 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 " localvimrc
 let g:localvimrc_ask = 0
 
+" calendar
+let g:calendar_diary = '~/Documents/diary'
+let g:calendar_focus_today = 1
+"let g:calendar_erafmt = '民國,-1911'
+let g:calendar_mruler = '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月'
+let g:calendar_wruler = '日 月 火 水 木 金 土'
+
 " Keybindings for plugin toggle
 nmap <F5> :TagbarToggle<cr>
 nmap <F6> :NERDTreeToggle<cr>
+nmap <F2> :Calendar<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :

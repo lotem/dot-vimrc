@@ -52,6 +52,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'vim-scripts/a.vim'
 Bundle 'vim-scripts/localvimrc'
+Bundle 'mattn/calendar-vim'
 
 "-------------
 " Other Utils
