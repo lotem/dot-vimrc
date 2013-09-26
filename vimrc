@@ -22,6 +22,7 @@ au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
 
 " search
+set hlsearch
 set incsearch
 "set highlight 	" conflict with highlight current line
 set ignorecase
