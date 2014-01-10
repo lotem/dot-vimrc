@@ -207,7 +207,7 @@ nmap <F2> :Calendar<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ag
 nnoremap <leader>v V`]
 
 "------------------
